@@ -54,7 +54,7 @@
                 <br>
 
                 <label for="maritalStatus">Estado Civil</label>
-                <select name="maritalStatus">
+                <select id="maritalStatus" name="userMaritalStatus">
                     <option value="notInformed">Selecione...</option>
                     <option value="casado">Casado</option>
                     <option value="solteiro">Solteiro</option>
@@ -63,7 +63,7 @@
                 </select>
 
                 <label for="userState">Estado</label>
-                <select name="userState" required>
+                <select id="userState" name="userState" required>
                     <option value="acre">Acre</option>
                     <option value="alagoas">Alagoas</option>
                     <option value="amapa">Amapá</option>
@@ -92,9 +92,10 @@
                     <option value="sergipe">Sergipe</option>
                     <option value="tocantins">Tocantins</option>
                 </select>
+                <br>
 
-                <label for="userCity">Cidade</label>
-                <input type="text" name="userCity" placeholder="Cidade">
+                <label for="city">Cidade</label>
+                <input type="text" id="city" name="userCity" placeholder="Cidade">
 
             </fieldset>
             <fieldset>
@@ -136,7 +137,7 @@
                 <label for="otima">Ótima</label>
                 <br>
 
-                <input type="radio" name="userComent" value="bom" id="boa">
+                <input type="radio" name="userComent" value="boa" id="boa">
                 <label for="boa ">Boa</label>
                 <br>
                 
